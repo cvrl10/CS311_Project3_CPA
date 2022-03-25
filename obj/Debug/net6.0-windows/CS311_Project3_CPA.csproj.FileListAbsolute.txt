@@ -1,0 +1,17 @@
+C:\Users\carla\source\repos\CS311_Project3_CPA\bin\Debug\net6.0-windows\CS311_Project3_CPA.exe
+C:\Users\carla\source\repos\CS311_Project3_CPA\bin\Debug\net6.0-windows\CS311_Project3_CPA.deps.json
+C:\Users\carla\source\repos\CS311_Project3_CPA\bin\Debug\net6.0-windows\CS311_Project3_CPA.runtimeconfig.json
+C:\Users\carla\source\repos\CS311_Project3_CPA\bin\Debug\net6.0-windows\CS311_Project3_CPA.dll
+C:\Users\carla\source\repos\CS311_Project3_CPA\bin\Debug\net6.0-windows\CS311_Project3_CPA.pdb
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.csproj.AssemblyReference.cache
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.Form1.resources
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.csproj.GenerateResource.cache
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.AssemblyInfoInputs.cache
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.AssemblyInfo.cs
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.csproj.CoreCompileInputs.cache
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.dll
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\refint\CS311_Project3_CPA.dll
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.pdb
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\CS311_Project3_CPA.genruntimeconfig.cache
+C:\Users\carla\source\repos\CS311_Project3_CPA\obj\Debug\net6.0-windows\ref\CS311_Project3_CPA.dll
