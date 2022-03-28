@@ -18,7 +18,7 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
-        }
+        }//end Dispose
 
         #region Windows Form Designer generated code
 
@@ -34,7 +34,7 @@
             this.rdoThick = new System.Windows.Forms.RadioButton();
             this.rdoThin = new System.Windows.Forms.RadioButton();
             this.lblCrustType = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblToppings = new System.Windows.Forms.Label();
             this.ckbPepperoni = new System.Windows.Forms.CheckBox();
             this.ckbSausage = new System.Windows.Forms.CheckBox();
             this.ckbCanadianBacon = new System.Windows.Forms.CheckBox();
@@ -56,7 +56,11 @@
             this.lblTax = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
+            this.pictBox = new System.Windows.Forms.PictureBox();
+            this.lblLarge = new System.Windows.Forms.Label();
+            this.lblSize = new System.Windows.Forms.Label();
             this.panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictBox)).BeginInit();
             this.SuspendLayout();
             // 
             // cboSize
@@ -69,7 +73,7 @@
             "Large",
             "X-Large",
             "Ginormous"});
-            this.cboSize.Location = new System.Drawing.Point(60, 125);
+            this.cboSize.Location = new System.Drawing.Point(106, 130);
             this.cboSize.Name = "cboSize";
             this.cboSize.Size = new System.Drawing.Size(151, 28);
             this.cboSize.TabIndex = 0;
@@ -131,15 +135,15 @@
             this.lblCrustType.TabIndex = 0;
             this.lblCrustType.Text = "Crust Type:";
             // 
-            // label1
+            // lblToppings
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(217, 195);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Toppings:";
+            this.lblToppings.AutoSize = true;
+            this.lblToppings.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblToppings.Location = new System.Drawing.Point(217, 195);
+            this.lblToppings.Name = "lblToppings";
+            this.lblToppings.Size = new System.Drawing.Size(77, 20);
+            this.lblToppings.TabIndex = 2;
+            this.lblToppings.Text = "Toppings:";
             // 
             // ckbPepperoni
             // 
@@ -275,10 +279,10 @@
             // 
             // rtfSummary
             // 
-            this.rtfSummary.Location = new System.Drawing.Point(246, 321);
+            this.rtfSummary.Location = new System.Drawing.Point(148, 321);
             this.rtfSummary.Name = "rtfSummary";
             this.rtfSummary.ReadOnly = true;
-            this.rtfSummary.Size = new System.Drawing.Size(386, 95);
+            this.rtfSummary.Size = new System.Drawing.Size(484, 95);
             this.rtfSummary.TabIndex = 16;
             this.rtfSummary.Text = "";
             // 
@@ -286,7 +290,7 @@
             // 
             this.lblOrderSummary.AutoSize = true;
             this.lblOrderSummary.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblOrderSummary.Location = new System.Drawing.Point(159, 324);
+            this.lblOrderSummary.Location = new System.Drawing.Point(60, 324);
             this.lblOrderSummary.Name = "lblOrderSummary";
             this.lblOrderSummary.Size = new System.Drawing.Size(81, 40);
             this.lblOrderSummary.TabIndex = 17;
@@ -351,7 +355,7 @@
             this.btnCalculate.BackColor = System.Drawing.Color.LimeGreen;
             this.btnCalculate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCalculate.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.btnCalculate.Location = new System.Drawing.Point(159, 367);
+            this.btnCalculate.Location = new System.Drawing.Point(60, 367);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(82, 41);
             this.btnCalculate.TabIndex = 24;
@@ -359,11 +363,45 @@
             this.btnCalculate.UseVisualStyleBackColor = false;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
+            // pictBox
+            // 
+            this.pictBox.Enabled = false;
+            this.pictBox.Image = global::CS311_Project3_CPA.Properties.Resources._27577;
+            this.pictBox.Location = new System.Drawing.Point(463, 12);
+            this.pictBox.Name = "pictBox";
+            this.pictBox.Size = new System.Drawing.Size(357, 190);
+            this.pictBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictBox.TabIndex = 25;
+            this.pictBox.TabStop = false;
+            // 
+            // lblLarge
+            // 
+            this.lblLarge.Font = new System.Drawing.Font("Segoe UI", 36F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.lblLarge.Location = new System.Drawing.Point(60, 12);
+            this.lblLarge.Name = "lblLarge";
+            this.lblLarge.Size = new System.Drawing.Size(368, 80);
+            this.lblLarge.TabIndex = 26;
+            this.lblLarge.Text = "Chez Carl";
+            // 
+            // lblSize
+            // 
+            this.lblSize.AutoSize = true;
+            this.lblSize.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSize.Location = new System.Drawing.Point(60, 133);
+            this.lblSize.Name = "lblSize";
+            this.lblSize.Size = new System.Drawing.Size(40, 20);
+            this.lblSize.TabIndex = 27;
+            this.lblSize.Text = "Size:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(884, 450);
+            this.Controls.Add(this.lblSize);
+            this.Controls.Add(this.lblLarge);
+            this.Controls.Add(this.pictBox);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.lblTax);
@@ -385,13 +423,14 @@
             this.Controls.Add(this.ckbCanadianBacon);
             this.Controls.Add(this.ckbSausage);
             this.Controls.Add(this.ckbPepperoni);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblToppings);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.cboSize);
             this.Name = "Form1";
             this.Text = "Chez Carl";
             this.panel.ResumeLayout(false);
             this.panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -405,7 +444,7 @@
         private RadioButton rdoThick;
         private RadioButton rdoThin;
         private Label lblCrustType;
-        private Label label1;
+        private Label lblToppings;
         private CheckBox ckbPepperoni;
         private CheckBox ckbSausage;
         private CheckBox ckbCanadianBacon;
@@ -427,5 +466,8 @@
         private Label lblTax;
         private Label lblTotal;
         private Button btnCalculate;
-    }
-}
+        private PictureBox pictBox;
+        private Label lblLarge;
+        private Label lblSize;
+    }//end partial class
+}//end namespace

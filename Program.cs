@@ -12,6 +12,6 @@ namespace CS311_Project3_CPA
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
-        }
-    }
-}
+        }//end Main
+    }//end internal class
+}//end namespace
